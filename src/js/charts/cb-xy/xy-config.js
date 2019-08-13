@@ -54,10 +54,10 @@ var display = {
 		smallSpot: (3 / 4)
 	},
 	margin: {
-		top: "0.8em",
-		right: "0.25em",
-		bottom: "0.15em",
-		left: "0.25em"
+		top: "0.9em",
+		right: "0.5em",
+		bottom: "0.5em",
+		left: "0.5em"
 	},
 	padding: {
 		top: 0,

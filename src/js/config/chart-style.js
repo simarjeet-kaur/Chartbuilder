@@ -27,7 +27,7 @@ var chart_style = {
 		small: "0.8em"
 	},
 	dotRadiusFactor: 0.007, // size of dot as % of width
-	numColors: 11,
+	numColors: 17,
 	xOverTick: "1em", // horizontal the distance between the yAxes and xAxis
 	creditMargin: "0.6em"
 };
