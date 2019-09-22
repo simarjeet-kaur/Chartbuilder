@@ -126,14 +126,14 @@ var XY_yScaleSettings = React.createClass({
 					className="scale-option"
 					onChange={this._handleScaleUpdate.bind(null, "prefix")}
 					value={currScale.prefix}
-					placeholder="Prefix"
+					placeholder="Prefix (e.g. '$' will display your data as '$100')" //changes the temporary words in the box 
 				/>
 				<TextInput
 					id="suffix"
 					className="scale-option"
 					onChange={this._handleScaleUpdate.bind(null, "suffix")}
 					value={currScale.suffix}
-					placeholder="Suffix"
+					placeholder="Suffix (e.g. '%' will display your data as '100%')" //changes the temporary words in the box 
 				/>
 				<div className="scale-tangle-inputs">
 					<LabelledTangle

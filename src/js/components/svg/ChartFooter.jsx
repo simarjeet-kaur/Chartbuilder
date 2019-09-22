@@ -147,7 +147,8 @@ var ChartCreditImg = React.createClass({
 		var _translate = this.props.translate;
 		var translate;
 
-		translate = [_translate.left, _translate.bottom - (offsetLogoHeight / 2)];
+		// translate = [_translate.left + 100 , _translate.top + (offsetLogoHeight / 2)]; 
+		translate = [_translate.right - configCreditImg.logowidth, 0]; 
 
 		return (
 			<SvgImage
@@ -205,7 +206,7 @@ var ChartSourceText = React.createClass({
 		}
 		return (
 			<SvgText
-				text={this.props.text}
+				text={this.props.text} //source: footer text
 				wrap={false}
 				heightPerLine={this.props.heightPerLine}
 				pixelsPerCharacter={this.props.pixelsPerCharacter}

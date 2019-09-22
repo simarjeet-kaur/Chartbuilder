@@ -127,7 +127,7 @@ var ChartGrid_xScaleSettings = React.createClass({
 					className="scale-option"
 					onChange={this._handleScaleUpdate.bind(null, "prefix")}
 					value={currScale.prefix}
-					placeholder="Prefix"
+					placeholder="Prefix Example"
 				/>
 				<TextInput
 					id="suffix"
